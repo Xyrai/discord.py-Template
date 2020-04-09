@@ -5,7 +5,7 @@ from discord.ext.commands import Bot
 with open('config.json', 'r') as f:
     config = json.load(f)
 
-bot = Bot(command_prefix=config['prefix'], description=config['prefix'])
+bot = Bot(command_prefix=config['prefix'], description=config['description'])
 
 
 async def load_modules():
