@@ -17,7 +17,7 @@ async def load_modules():
 
 @bot.event
 async def on_ready():
-    print(f'Logged in as {bot.user.name} (ID: {bot.user.id}')
+    print(f'Logged in as {bot.user.name} (ID: {bot.user.id})')
     print('-----')
 
     await load_modules()
