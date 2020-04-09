@@ -1,2 +1,2 @@
-# discord.py Template
+# discord.py template
 A template of the API wrapper for Discord
